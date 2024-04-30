@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    padding-left: 60px;
+}
+nav{
+    display: flex;
+    padding: 30px;
+}
+nav>a:first-child{
+    margin-left: 600px;
+}
+nav>a{
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+}
