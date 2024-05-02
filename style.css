@@ -23,13 +23,54 @@ header>img {
     width: 1350px;
 }
 
+.container {
+    padding-top: 60px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
 .container1 {
     padding-top: 60px;
     padding-left: 140px;
     padding-right: 140px;
 }
 
-.container1>h3,
+.container>h3,
 h4 {
     font-weight: normal;
+}
+
+.container1 {
+    display: flex;
+}
+
+.img1 {
+    width: 430px;
+}
+
+.img1>h5 {
+    color: gray;
+    font-weight: normal;
+}
+
+.img1>h1 {
+    width: 450px;
+    font-size: 34px;
+    font-weight: normal;
+    color: rgb(81, 81, 81);
+}
+.img2 {
+    width: 430px;
+    margin-left: 420px;
+}
+
+.img2>h5 {
+    color: gray;
+    font-weight: normal;
+}
+
+.img2>h1 {
+    width: 450px;
+    font-size: 34px;
+    font-weight: normal;
+    color: rgb(81, 81, 81);
 }
