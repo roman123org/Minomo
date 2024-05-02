@@ -1,20 +1,35 @@
-.header{
+.header {
     display: flex;
     padding-left: 60px;
 }
-nav{
+
+nav {
     display: flex;
     padding: 30px;
 }
-nav>a:first-child{
+
+nav>a:first-child {
     margin-left: 600px;
 }
-nav>a{
+
+nav>a {
     margin-left: 100px;
     text-decoration: none;
     color: black;
 }
-header>img{
+
+header>img {
     padding-left: 60px;
     width: 1350px;
+}
+
+.container1 {
+    padding-top: 60px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.container1>h3,
+h4 {
+    font-weight: normal;
 }
