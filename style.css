@@ -140,6 +140,10 @@ form>input {
     width: 100px;
     margin-left: 700px;
     margin-top: 50px;
+    transition: .2s ease-in-out;
+}
+.button:hover{
+    transform: scale(1.5);
 }
 footer{
     display: flex;
@@ -165,4 +169,8 @@ footer>.container{
 }
 .container>a>img{
     margin-left: 20px;
+    transition: .2s ease-in-out;
+}
+.container>a>img:hover{
+    transform: scale(1.5);
 }
