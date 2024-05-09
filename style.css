@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
 .header {
     display: flex;
     padding-left: 80px;
@@ -110,4 +113,15 @@ form>input{
     border-bottom: 1px solid black;
     width: 310px;
     background: transparent;
+}
+.button>a{
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+    margin-left: 700px;
+    margin-top: 200px;
+    height: 400px;
+}
+.button{
+    width: 2000px;
+    height: 400px;
 }
